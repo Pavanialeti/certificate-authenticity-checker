@@ -16,3 +16,32 @@ secrets.toml
 data/
 private_evidence/
 evidence/private/
+
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Pytest temporary files
+.pytest_cache/
+.pytest-tmp/
+.pytest-tmp*/
+.pytest-tmp*/
+.pytest-tmp-*/
+.pytest-tmp*/
+.pytest-tmp*/
+.pytest-tmp*/
+.pytest-tmp*/
+.pytest-tmp*/
+
+# Application data and secrets
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+secrets.toml
+
+# Local evidence
+evidence/
